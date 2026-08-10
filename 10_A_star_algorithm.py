@@ -18,7 +18,7 @@ class State:
         self.parent = parent
 
     def __lt__(self, other):
-        return self.f < other.f dwew
+        return self.f < other.f
 
 
 # ---------- A* Search ----------
